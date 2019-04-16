@@ -76,3 +76,6 @@ function dialogClosed(message) {
   btnEvent.completed();
   btnEvent = null;
 }
+
+// Make things global
+window.insertDefaultGist = insertDefaultGist;
